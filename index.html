@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>The Super Mario Bros</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles/global.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div id="background">
+    <video loop autoplay muted>
+      <source src="./assets/hunterxhunter_trailer.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div id="app">
+    <header>
+      <img src="./assets/hunter.png" alt="">
+      <ul class="navigation">
+        <li>
+          <a href="#" class="navigation__link">Home</a>
+        </li>
+        <li>
+          <a href="#" class="navigation__link">Story</a>
+        </li>
+        <li>
+          <a href="#" class="navigation__link">Wallpapers</a>
+        </li>
+        <li>
+          <a href="#" class="navigation__link">Trailer</a>
+        </li>
+      </ul>
+
+      <div class="navigation__social">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/pietradaaa/">
+              <img src="./assets/instagram.svg" alt="Logo do Instagram"/> 
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/pietro-siqueira-9663371b0/">
+              <img src="./assets/linkedin.svg" alt="Logo do Linkedin"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Pietrada97">
+              <img src="./assets/github.svg" alt="Logo do Github"/>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:pietro.siqueira97@gmail.com">
+              <img src="./assets/mail.svg" alt="Logo do E-mail"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="main__info">
+        <img src="./assets/Hunter_x_hunter.png" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out" width="250px" alt="logo-movie">
+        <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-easing="ease-in-out">
+          Durante a Batalha Olímpia, campeonato que reúne os mestres da Arena Celestial para decidir quem merece ficar no topo, surge uma inesperada ameaça. Antigos membros de um grupo que era a face oculta da Associação Hunter ocupam a Arena Celestial e exigem a publicação de todas as missões secretas executadas por eles, sob ordens da Associação.
+        </p>
+        <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-easing="ease-in-out">
+          <a href="https://www.youtube.com/watch?v=DbylrrZ6C_k" class="main__button" target="_blank">Assistir trailer</a>
+          <button>Comprar ingresso</button>
+        </div>
+      </div>
+      <img data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-easing="ease-in-out" src="./assets/hisoka.png" width="680px" alt="personagens">
+    </main>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
