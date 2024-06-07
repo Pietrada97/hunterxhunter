@@ -37,3 +37,71 @@ button:hover {
   height: 100vh;
   overflow: hidden;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+
+  .navigation {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  .navigation__social {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .main__info {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .main__info div {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  .main__info div a, .main__info div button {
+    width: 100%;
+  }
+
+  .main__info p {
+    font-size: 16px;
+  }
+
+  main img {
+    width: 100%;
+    max-width: 480px;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation {
+    column-gap: 16px;
+  }
+
+  .navigation__link {
+    font-size: 12px;
+  }
+
+  .navigation__social ul {
+    column-gap: 16px;
+  }
+
+  .navigation__social img {
+    width: 20px;
+    height: 20px;
+  }
+}
